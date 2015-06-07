@@ -47,7 +47,7 @@
   :group 'applications)
 
 (defcustom helm-dash-docsets-path
-  (let ((original-dash-path (expand-file-name "~/Library/Application Support/Dash/DocSets")))
+  (let ((original-dash-path (expand-file-name "~/Library/Application\ Support/Dash/DocSets")))
     (if (and (string-equal system-type 'darwin)
              (file-directory-p original-dash-path))
         original-dash-path
